@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  background-color: black;
+  color: #00b800;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+textarea {
+  width: 60%;
+  height: 20rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #00b800;
+  font-size: 2rem;
+  font-family: "Press Start 2P", cursive;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem 3rem;
+  color: black;
+  border: none;
+  background-color: #00b800;
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: "Press Start 2P", cursive;
+}
+textarea:disabled {
+  background-color: gray;
+}
